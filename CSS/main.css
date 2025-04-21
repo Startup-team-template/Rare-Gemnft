@@ -1,3 +1,15 @@
+@import url(./community.css);
+@import url(./create-sell.css);
+@import url(./creators.css);
+@import url(./discover.css);
+@import url(./faq.css);
+@import url(./footer.css);
+@import url(./hero.css);
+@import url(./navbar.css);
+@import url(./nft.css);
+@import url(./quotes.css);
+@import url(./they-said.css);
+@import url(./top-footer.css);
 * {
   font-family: "Space Grotesk", sans-serif;
 }
