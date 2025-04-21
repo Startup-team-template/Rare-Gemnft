@@ -1,3 +1,95 @@
-*{
-    font-family: "Space Grotesk", sans-serif;
+* {
+  font-family: "Space Grotesk", sans-serif;
+}
+:root {
+  --main: rgb(217, 238, 68);
+  --black: rgb(23, 23, 23);
+  --white: rgb(255, 255, 255);
+  --gray: rgb(217, 217, 217);
+}
+.body-medium-regular {
+  font-size: 16px;
+  line-height: 1.25em;
+  font-weight: 300;
+}
+.body-medium-medium {
+  font-size: 16px;
+  line-height: auto;
+  font-weight: 500;
+}
+.body-medium-bold {
+  font-size: 16px;
+  line-height: auto;
+  font-weight: 700;
+}
+.body-small-regular {
+  font-size: 14px;
+  line-height: auto;
+  font-weight: 300;
+}
+.body-small-medium {
+  font-size: 14px;
+  line-height: auto;
+  font-weight: 500;
+}
+.body-small-bold {
+  font-size: 14px;
+  line-height: auto;
+  font-weight: 700;
+}
+
+.title-xl {
+  font-size: 54px;
+  font-weight: 700;
+  line-height: auto;
+}
+.title-l {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: auto;
+}
+.title-m {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: auto;
+}
+.title-s {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: auto;
+}
+.title-xs {
+  font-size: 38px;
+  font-weight: 700;
+  line-height: auto;
+}
+.subtilted-xl-regular {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: auto;
+}
+.subtilted-xl-medium {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: auto;
+}
+.subtilted-xl-bold {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: auto;
+}
+.subtilted-l-regular {
+  font-size: 20x;
+  font-weight: 300;
+  line-height: auto;
+}
+.subtilted-xl-medium {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: auto;
+}
+.subtilted-xl-bold {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: auto;
 }
