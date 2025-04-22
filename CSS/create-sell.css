@@ -1,0 +1,91 @@
+
+.createContainerMobil{
+    display: none;
+}
+.createSection{
+    padding: 48px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.CreateContainer{
+    background-color: var(--white);
+    border-radius: 20px;
+    padding: 80px;
+    width: 1439px;
+    height: 922px;
+    border:2px solid red;  
+    display: flex;
+    flex-wrap: wrap;
+   
+   
+}
+.createTitle{
+    background-color: rgb(214, 204, 224);
+    width: 584px;
+    height: 260px;
+    margin-left: 100px;
+    
+}
+.CreateHeader{
+    border:2px solid red;  
+}
+.CreateNft{
+      text-shadow: var(--main)9px 9px;
+      border:2px solid blue;  
+      display: flex;
+      flex-direction: row-reverse;
+}
+.headerprg{
+    opacity: 0.6;
+    letter-spacing: 0.01em;
+}
+.createImg {
+    margin-top: -75px;
+    margin-left: -31px;
+}
+.listitem{
+    border: 2px solid var(--black);
+border-radius: 10px;
+padding: 24px;
+width: 369px;
+height: 208px;
+box-shadow: 9px 9px 0 0 #ddf247;
+background: var(--white);
+}
+.createList{
+    display: flex;
+}
+.ListText{
+    opacity: 0.6;
+    margin-top: 24px;
+}
+.ListHeader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+}
+.listSvg{
+    border-radius: 100px;
+padding: 16px;
+width: 56px;
+height: 56px;
+background-color: var(--main);
+}
+/*    
+   
+   
+   
+   
+    border-radius: 20px;
+  background: linear-gradient(var(--white)) padding-box;
+padding: 80px;
+width: 1439px;
+height: 922px;
+border: 5px solid;
+    border-image: linear-gradient(150deg, #DDF247, #EEB000,#9747FF,#1D9BF0) 1;
+    padding: 1rem;
+     */
+
