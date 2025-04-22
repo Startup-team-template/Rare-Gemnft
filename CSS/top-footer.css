@@ -37,6 +37,7 @@
 .top-list-item-link {
   display: flex;
   text-decoration: none;
+  color: var(--white);
 }
 .top-footer-copy {
 }
