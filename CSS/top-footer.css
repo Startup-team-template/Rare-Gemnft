@@ -1,10 +1,11 @@
 .footer-top-section {
   background: var(--black);
-  padding: 30px 80px 30px 80px;
+  padding: 30px 80px;
   margin: 0 auto;
 }
 .footer-top-section > .container {
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   height: 84px;
   margin: 0 auto;
   display: flex;
@@ -21,7 +22,7 @@
 }
 .footer-right {
   display: flex;
-  width: 241px;
+  width: auto;
   height: 18px;
   gap: 24px;
   padding: 20px 80px 20px 0;

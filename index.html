@@ -1,52 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  
-  <link rel="stylesheet" href="./CSS/main.css" />
-  <link rel="stylesheet"
-   href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
-</head>
+    <link rel="stylesheet" href="./CSS/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-  <load src="./HTML-PARTS/navbar.html"></load>
+  <body>
+    <load src="./HTML-PARTS/navbar.html"></load>
 
-  <main>
-    <load src="./HTML-PARTS/hero.html"></load>
-    <load src="./HTML-PARTS/discover.html"></load>
-    <load src="./HTML-PARTS/creators.html"></load>
-    <load src="./HTML-PARTS/create-sell.html"></load>
-    <load src="./HTML-PARTS/nft.html"></load>
-    <load src="./HTML-PARTS/community.html"></load>
-    <load src="./HTML-PARTS/they-said.html"></load>
-    <load src="./HTML-PARTS/faq.html"></load>
-    <load src="./HTML-PARTS/quotes.html"></load>
-  </main>
+    <main>
+      <load src="./HTML-PARTS/hero.html"></load>
+      <load src="./HTML-PARTS/discover.html"></load>
+      <load src="./HTML-PARTS/creators.html"></load>
+      <load src="./HTML-PARTS/create-sell.html"></load>
+      <load src="./HTML-PARTS/nft.html"></load>
+      <load src="./HTML-PARTS/community.html"></load>
+      <load src="./HTML-PARTS/they-said.html"></load>
+      <load src="./HTML-PARTS/faq.html"></load>
+      <load src="./HTML-PARTS/quotes.html"></load>
+    </main>
 
-  <load src="./HTML-PARTS/footer.html"></load>
-  <load src="./HTML-PARTS/top-footer.html"></load>
+    <load src="./HTML-PARTS/footer.html"></load>
+    <load src="./HTML-PARTS/top-footer.html"></load>
 
-  <script>
-
-    document.querySelectorAll('load').forEach(async (element) => {
-      const src = element.getAttribute('src');
-      try {
-        const response = await fetch(src);
-        if (!response.ok) throw new Error('Dosya yüklenemedi.');
-        const content = await response.text();
-        element.outerHTML = content;
-      } catch (error) {
-        console.error('Hata:', error);
-      }
-    });
-  </script>
-
-</body>
-
+    <script>
+      document.querySelectorAll("load").forEach(async (element) => {
+        const src = element.getAttribute("src");
+        try {
+          const response = await fetch(src);
+          if (!response.ok) throw new Error("Dosya yüklenemedi.");
+          const content = await response.text();
+          element.outerHTML = content;
+        } catch (error) {
+          console.error("Hata:", error);
+        }
+      });
+    </script>
+  </body>
 </html>

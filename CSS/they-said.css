@@ -6,6 +6,7 @@
 .they-said-section > .container {
   max-width: 1440px;
   margin: 0 auto;
+  position: relative;
 }
 
 .they-said-content {
@@ -17,44 +18,42 @@
 }
 
 .title-container {
-  position: absolute;
-  left: 0;
-  top: 0;
+  display: flex;
+  flex-direction: column;
   width: 584px;
   height: 260px;
-  gap: 16px;
-  margin: 0px 735px 40px 0px;
+  margin-bottom: 80px;
+  gap: 40px;
 }
 .title-container-content {
 }
-.content-title {
-}
-.nft-text {
-  position: absolute;
-  padding: 136px 0 16px 443px;
-}
-.yellow {
-  color: #ddf247;
-  left: 15px;
-  top: 10px;
-}
-.black {
-  color: black;
-  left: 0;
-  top: 0;
-}
-.title-container-text {
-  opacity: 0.6;
-  padding-top: 90px;
+.main-title {
+  text-align: left;
+  font-weight: 700;
+  font-size: 54px;
   line-height: 1.25em;
-  letter-spacing: 0.015em;
+}
+.nft-tag {
+  align-self: flex-end;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 1.25em;
+  color: var(--black);
+  text-shadow: 9px 9px 0 #ddf247;
+}
+
+.title-content {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.25em;
+  letter-spacing: 0.01em;
+  opacity: 0.6;
 }
 .card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
-  padding-top: 300px;
 }
 
 .cards {
@@ -78,6 +77,7 @@
   display: flex;
   align-items: center;
   margin-bottom: 15px;
+  padding: 24px;
 }
 .profile img {
   padding-right: 16px;
@@ -91,6 +91,7 @@
 }
 .profile-text {
   color: var(--black);
+  line-height: 1.25em;
 }
 .profile-text-container {
   margin-top: 24px;
