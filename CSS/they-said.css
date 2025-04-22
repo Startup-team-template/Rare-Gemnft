@@ -1,0 +1,97 @@
+.they-said-section {
+  padding: 80px;
+  background: var(--white);
+}
+
+.they-said-section > .container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.they-said-content {
+  position: relative;
+  width: 1201;
+  height: 774;
+  gap: 40px;
+  margin: 80px 118px;
+}
+
+.title-container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 584px;
+  height: 260px;
+  gap: 16px;
+  margin: 0px 735px 40px 0px;
+}
+.title-container-content {
+}
+.content-title {
+}
+.nft-text {
+  position: absolute;
+  padding: 136px 0 16px 443px;
+}
+.yellow {
+  color: #ddf247;
+  left: 15px;
+  top: 10px;
+}
+.black {
+  color: black;
+  left: 0;
+  top: 0;
+}
+.title-container-text {
+  opacity: 0.6;
+  padding-top: 90px;
+  line-height: 1.25em;
+  letter-spacing: 0.015em;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 300px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  justify-content: center;
+  width: 100%;
+}
+
+.profile-card {
+  background: var(--white);
+  border-radius: 5px;
+  padding: 20px;
+  text-align: left;
+  width: 379px;
+  height: 217px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.profile img {
+  padding-right: 16px;
+}
+.profile-title {
+  color: var(--black);
+  margin: 0 0 16px 0;
+}
+.profile-subtitle {
+  opacity: 0.6;
+}
+.profile-text {
+  color: var(--black);
+}
+.profile-text-container {
+  margin-top: 24px;
+}
