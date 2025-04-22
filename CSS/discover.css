@@ -1,0 +1,140 @@
+
+p,
+h3 {
+    margin: 0;
+}
+
+.discoverSection {
+    background-color: var(--black);
+    padding: 80px;
+}
+
+.containerDiscover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.discover {
+    width: 616px;
+    display: flex;
+    flex-direction: column;
+}
+
+.discoverText {
+    width: 616px;
+}
+
+.disHeaderSpan,
+.dscvrHeader {
+    color: var(--main);
+}
+
+.discoverHeader,
+.dscvrText {
+    color: var(--white);
+}
+
+.discoverCounting {
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    gap: 32px;
+}
+
+.discoverImg {
+    width: 591px;
+    height: 576px;
+    margin-top: -100px;
+    margin-bottom: -50px;
+}
+
+.discoverImgMobil {
+    display: none;
+    margin-bottom: -50px;
+    margin-bottom: -50px;
+}
+
+.discoverPrgf {
+    margin-top: 16px;
+}
+.dscvrHeader {
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 810px) and (max-width: 1199px) {
+    .containerDiscover {
+        flex-direction: column;
+    }
+
+    .discoverImg {
+        margin: 0;
+    }
+
+    .dscvrHeader {
+        margin-bottom: 16px;
+    }
+
+}
+
+@media screen and (min-width: 390px) and (max-width: 809px) {
+    .discover {
+        width: 325px;
+        height: 331px;
+    }
+
+    .discoverCounting,
+    .discoverHeader,
+    .discoverText {
+        width: 335px;
+    }
+
+    .containerDiscover {
+        flex-direction: column;
+    }
+
+    .discoverImg {
+        margin: 0;
+    }
+
+    .discoverHeader>.title-xl {
+        font-size: 42px;
+        font-weight: 700;
+        line-height: auto;
+
+    }
+
+    .discoverHeader>.body-medium-regular {
+        font-size: 14px;
+        line-height: auto;
+
+    }
+
+    .discoverList>.title-xs {
+        font-size: 24px;
+    }
+
+    .discoverList>.body-medium-regular {
+        font-size: 14px;
+        line-height: auto;
+    }
+
+    .discoverImg {
+        display: none;
+    }
+
+    .discoverImgMobil {
+        display: inline;
+    }
+
+    .dscvrHeader {
+        margin-bottom: 10px;
+    }
+
+    .discoverHeader {
+        margin-bottom: 40px;
+    }
+
+
+}

@@ -23,6 +23,7 @@
   font-size: 16px;
   line-height: 1.25em;
   font-weight: 300;
+  letter-spacing: 0em;
 }
 .body-medium-medium {
   font-size: 16px;
@@ -53,7 +54,8 @@
 .title-xl {
   font-size: 54px;
   font-weight: 700;
-  line-height: auto;
+  line-height: 1.25em;
+  letter-spacing: 0em;
 }
 .title-l {
   font-size: 50px;
