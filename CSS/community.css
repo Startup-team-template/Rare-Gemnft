@@ -1,0 +1,107 @@
+.community{
+    background: url('../images/nft-bg.png');
+    padding: 80px 114px 0 120px;
+    margin: 80px auto ;
+}
+.community-box{
+    position: relative;
+    width: 1135px;
+    height: 1126px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.circle{
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid var(--main);
+
+}
+
+.circle1{
+    width: 1197px;
+    height: 1217px;
+}
+.circle2{
+    width: 956px;
+    height: 972px;
+}
+.circle3{
+    width:726px;
+    height: 738px;
+}
+.circle4{
+    width:555px;
+    height: 564px;
+    border: 1px solid rgba(217, 238, 68, 0.5);
+}
+.monkey {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+.monkey-1 {
+    left: 30%;
+    transform: translateX(-50%);
+    top: 0px;
+}
+.monkey-2 {
+    right: 50%;
+    bottom: -3%;
+    transform: translateX(-50%);
+}
+.monkey-3 {
+    left: 3%;
+    transform: translateX(-50%);
+    top: 30%;
+}
+.monkey-4 {
+    right: -10%;
+    transform: translateX(-50%);
+    top: 40%;
+}
+.monkey-5 {
+    right: 15%;
+    transform: translateY(-50%);
+    top: 10%;
+}
+.monkey-6 {
+    left: 10%;
+    transform: translateX(-50%);
+    bottom: 15%;
+}
+.monkey-7 {
+    right: 0%;
+    transform: translateX(-50%);
+    bottom: 10%;
+}
+.community-content {
+    position: relative;
+    text-align: center;
+    z-index: 10;
+}
+.community-content {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+.community-content .title-xl > span{
+    font-weight: 300;
+    color : var(--main);
+}
+.community-btn{
+    background:var(--main);
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 16px 24px;
+    text-align: center;
+    border-radius: 10px;
+    display: inline-block;
+    width: auto;
+}
