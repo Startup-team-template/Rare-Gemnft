@@ -161,7 +161,7 @@
         width: 100%;
         object-fit: cover;
     }
-    .nft-title{
+    .col-1 > .nft-title{
         font-size: 42px;
     }
     .nft-btn{
