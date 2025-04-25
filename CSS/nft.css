@@ -103,3 +103,69 @@
     border-radius: 10px;
 
 }
+
+@media screen and (min-width: 780px) and (max-width: 1200px){
+    .nft{
+        padding: 80px 60px;
+    }
+    .container{
+        max-width: 780px;
+    }
+    .col-1{
+        gap: 25px;
+    }
+    .nft-list{
+        flex-direction: column;
+        gap:56px ;
+    }
+    .nft-list-item{
+        width: 100%;
+    }
+    .nft-box-content{
+        width: 50%;
+        left: 50%;
+        bottom: 0;
+    }
+    .nft-box-img{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 100%;
+    }
+}
+@media screen and (min-width: 350px) and (max-width: 779px){
+    .nft{
+        padding: 40px 25px;
+    }
+    .container{
+        max-width: 350px;
+    }
+    .col-1{
+        gap: 25px;
+        width: 100%;
+    }
+    .nft-list{
+        flex-direction: column;
+        gap:56px ;
+    }
+    .nft-list-item{
+        width: 100%;
+        margin-bottom: 140px;
+    }
+    .nft-box-information{
+        gap: 5px;
+        row-gap: 23px;
+    }
+    .nft-box-img{
+        position: relative;
+        width: 100%;
+        object-fit: cover;
+    }
+    .col-1 > .nft-title{
+        font-size: 42px;
+    }
+    .nft-btn{
+        align-self: flex-start;
+    }
+}
+    
