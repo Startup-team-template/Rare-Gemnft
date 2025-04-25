@@ -48,6 +48,7 @@
   line-height: 1.25em;
   letter-spacing: 0.01em;
   opacity: 0.6;
+  padding-top: 16px;
 }
 .card-container {
   display: flex;
@@ -67,7 +68,7 @@
 .profile-card {
   background: var(--white);
   border-radius: 5px;
-  padding: 20px;
+  padding: 24px;
   text-align: left;
   width: 379px;
   height: 217px;
@@ -76,6 +77,8 @@
 .profile {
   display: flex;
   align-items: center;
+  width: 331px;
+  height: 65px;
   margin-bottom: 15px;
   padding: 24px;
 }
@@ -92,6 +95,9 @@
 .profile-text {
   color: var(--black);
   line-height: 1.25em;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 0.01em;
 }
 .profile-text-container {
   margin-top: 24px;

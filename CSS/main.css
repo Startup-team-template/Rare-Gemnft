@@ -13,11 +13,20 @@
 * {
   font-family: "Space Grotesk", sans-serif;
 }
-h1,h2,h3,h4,h5,h6,p,a{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
   margin: 0;
   padding: 0;
 }
-ul,li,ol{
+ul,
+li,
+ol {
   list-style: none;
 }
 :root {
@@ -104,12 +113,12 @@ ul,li,ol{
   font-weight: 300;
   line-height: auto;
 }
-.subtilted-xl-medium {
+.subtilted-l-medium {
   font-size: 20px;
   font-weight: 500;
   line-height: auto;
 }
-.subtilted-xl-bold {
+.subtilted-l-bold {
   font-size: 20px;
   font-weight: 700;
   line-height: auto;
