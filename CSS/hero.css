@@ -1,0 +1,113 @@
+.hero {
+}
+.hero .container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.container-hero {
+  display: flex;
+  flex-direction: row;
+}
+.hero-content {
+  display: flex;
+  flex-direction: column;
+}
+.hero-div {
+  display: flex;
+  flex-direction: column;
+}
+h1 span {
+  position: relative;
+  top: 10px;
+  left: 5px;
+  text-shadow: 9px 9px 0px #ddf247;
+}
+
+.hero-content p {
+  opacity: 0.6;
+  padding-bottom: 40px;
+  padding-top: 16px;
+  width: 600px;
+}
+.hero-btn {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.hero-btn button {
+  border: none;
+  border-radius: 10px;
+  padding: 16px 24px;
+  width: 175px;
+  height: 56px;
+}
+.support {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.hero-column div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  border: 1px solid #d9d9d9;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 10px;
+  padding: 30px 24px;
+  width: 482px;
+  height: 164px;
+  margin-bottom: 16px;
+}
+
+.hero-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 16px;
+  border-radius: 0 0 0 50px;
+  background: #171717;
+  padding: 80px;
+}
+.card-content {
+  background-color: #fff;
+  border-radius: 20px;
+  width: 415px;
+  height: 258px;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 20px;
+}
+.columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
+}
+.column button {
+  border-radius: 10px;
+  margin-left: 40px;
+  width: 65px;
+  height: 50px;
+  text-align: center;
+  background: #d9ee44;
+  border: none;
+}
+.thin{
+    opacity: 0.6;
+}
+.img img{
+    border-radius: 10px;
+    width: 481px;
+    height: 580px; 
+}
