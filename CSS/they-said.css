@@ -124,3 +124,109 @@
 .profile-text-container {
   margin-top: 24px;
 }
+@media screen and (min-width: 780px) and (max-width: 1200px) {
+  .they-said-section {
+    padding: 60px;
+  }
+  .they-said-section > .container {
+    max-width: 780px;
+    width: %50;
+  }
+  .they-said-content {
+    width: 660px;
+    height: 973px;
+  }
+  .title-container {
+    width: 584px;
+    height: 192px;
+  }
+  .card-container {
+    width: 660px;
+    height: 741px;
+    gap: 25px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: row;
+  }
+  .profile-card {
+    padding: 24px;
+    width: 317px;
+    height: 217px;
+  }
+  .profile {
+    width: 269px;
+    height: 65px;
+  }
+}
+
+@media screen and (min-width: 350px) and (max-width: 779px) {
+  .they-said-section {
+    padding: 40px 25px;
+  }
+  .they-said-section > .container {
+    width: 375px;
+    height: 905px;
+  }
+  .they-said-content {
+    width: 325px;
+    height: 825px;
+  }
+  .they-said-box {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    z-index: 0;
+    gap: 1000px;
+  }
+  .title-container {
+    width: 325px;
+    height: 240px;
+  }
+  .card-container {
+    width: 325px;
+    height: 545px;
+    width: 100%;
+    gap: 5px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .cards-two {
+    display: none;
+  }
+  .main-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 38px;
+    color: var(--rare-gemnft-black);
+  }
+  .title-box {
+    width: 81px;
+    height: 59px;
+  }
+  .title-content {
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 125%;
+    letter-spacing: 0.01em;
+    color: var(--rare-gemnft-black);
+  }
+  .profile-img {
+    border-radius: 112px;
+    width: 56px;
+    height: 56px;
+    background: #ececec;
+  }
+  .profile-card {
+    padding: 15px 0px;
+    width: 317px;
+    height: 165px;
+  }
+}
