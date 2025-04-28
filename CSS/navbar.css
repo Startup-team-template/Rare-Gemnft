@@ -1,0 +1,37 @@
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+    margin: 24px 53px;
+    padding-left: 24px;
+    gap: 20px;
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.navbar-list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.navbar-item {
+    text-decoration: none;
+    color: #171717;
+}
+
+.navbar-list .navbar-item-shadow {
+    text-decoration: none;
+    color: #171717;
+    font-weight: 700;
+    text-shadow: drop-shadow(5px 9px 0px rgba(221, 242, 71, 1));
+}
