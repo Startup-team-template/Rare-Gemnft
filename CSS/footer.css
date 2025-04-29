@@ -1,0 +1,152 @@
+.footer-section {
+    width: 100%;
+    height: 716px;
+    background-color: rgba(113, 107, 107);
+    background-image: url("../images/footer-bg.png");
+    /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.64),rgba(0, 0, 0, 0.64)),
+    url("../images/footer-bg.png");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.footer-overlay {
+    width: 100%;
+    height: 716px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.64), rgba(0, 0, 0, 0.64));
+}
+
+.footer-container {
+    max-width: 320px;
+    padding: 80px 21px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.footer-head {
+    text-align: center;
+    color: var(--white);
+}
+
+.footer-subscribe {
+    width: 100%;
+    background-color: var(--black);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 38px 30px;
+}
+
+.footer-subscribe h4 {
+    padding: 0 30px;
+    color: var(--white);
+    text-align: center;
+}
+
+.footer-btn {
+    color: var(--black);
+    width: 100%;
+    height: 68px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+
+.footer-btn:hover {
+    background-color: var(--black);
+    box-shadow: 9px 9px 0 0 var(--main);
+    color: var(--white);
+}
+
+@media screen and (min-width: 375px) and (max-width: 779px) {
+    .footer-section {
+        max-width: 100%;
+    }
+
+    .footer-container {
+        max-width: 779px;
+    }
+
+    .footer-head {
+        width: 333px;
+    }
+
+    .footer-subscribe {
+        width: 333px;
+    }
+}
+
+@media screen and (min-width: 780px) and (max-width: 1439px) {
+    .footer-section {
+        max-width: 100%;
+    }
+
+    .footer-container {
+        max-width: 1439px;
+        padding: 127px 98px;
+        gap: 32px;
+    }
+
+    .footer-head {
+        font-size: 54px;
+    }
+
+    .footer-subscribe {
+        width: 584px;
+    }
+
+    .footer-subscribe h4 {
+        font-size: 46px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .footer-section {
+        max-width: 100%;
+        height: 751px;
+        background-size: contain;
+    }
+
+    .footer-container {
+        max-width: 1440px;
+        padding: 0 90px 127px 90px;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 88px;
+    }
+
+    .footer-overlay {
+        height: 751px;
+    }
+
+    .footer-head {
+        width: 50%;
+        text-align: left;
+        margin-top: 60px;
+    }
+
+    .footer-container .title-m{
+        font-size: 100px;
+    }
+
+    .footer-subscribe {
+        width: 50%;
+        margin-top: 219px;
+    }
+
+    .footer-subscribe h4 {
+        font-size: 54px;
+        text-align: left;
+    }
+
+    .footer-btn {
+        font-size: 14px;
+    }
+}
