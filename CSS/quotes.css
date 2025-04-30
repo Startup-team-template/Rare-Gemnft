@@ -1,3 +1,7 @@
+.quotes{
+  background-color: #171717;
+  border-radius: 50px 50px 0 0;
+}
 .quotes .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -7,7 +11,6 @@
   padding: 80px;
   width: 1440px;
   height: 448px;
-  background: #171717;
 }
 .quotes-content p {
   color: #d9ee44;

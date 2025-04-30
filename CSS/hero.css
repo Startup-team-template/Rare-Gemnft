@@ -1,8 +1,12 @@
 .hero {
+  padding-left: 80px;
+  position: relative;
+  margin-bottom: 80px;
 }
-.hero .container {
+.hero-cont {
   max-width: 1440px;
   margin: 0 auto;
+  min-height: 940px;
 }
 .container-hero {
   display: flex;
@@ -15,6 +19,8 @@
 .hero-div {
   display: flex;
   flex-direction: column;
+  width: 49.94%;
+  padding-right: 2.22%;
 }
 h1 span {
   position: relative;
@@ -35,11 +41,16 @@ h1 span {
   gap: 16px;
 }
 .hero-btn button {
-  border: none;
+  border: 1px solid #d9d9d9;
   border-radius: 10px;
   padding: 16px 24px;
   width: 175px;
   height: 56px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.hero-btn button:first-child {
+  background: #d9ee44;
 }
 .support {
   padding-top: 40px;
@@ -68,12 +79,25 @@ h1 span {
   border-radius: 0 0 0 50px;
   background: #171717;
   padding: 80px;
+  width: 47.84%;
+  overflow: hidden;
+  height: 940px;
+  position: absolute;
+  right: 15px;
+  top: 0;
 }
+.card {
+  position: relative;
+}
+
 .card-content {
   background-color: #fff;
   border-radius: 20px;
   width: 415px;
   height: 258px;
+  position: absolute;
+  left: 7.5%;
+  top: 80%;
 }
 .card-header {
   display: flex;
@@ -103,11 +127,194 @@ h1 span {
   background: #d9ee44;
   border: none;
 }
-.thin{
-    opacity: 0.6;
+.thin {
+  opacity: 0.6;
 }
-.img img{
+.img img {
+  border-radius: 10px;
+  width: 481px;
+  height: 580px;
+}
+
+/* tablet */
+@media screen and (min-width: 780px) and (max-width: 1200px) {
+  .container-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .hero-div {
+    width: 650px;
+    position: relative;
+  }
+
+  .hero-card {
+    margin-bottom: 200px;
+    position: relative;
+    top: 200px;
+    height: 440px;
+    border-radius: 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    z-index: 10;
+    width: 100vw;
+    right: 0;
+    gap: 50px;
+  }
+  .card-content {
+    border-radius: 15px;
+    width: 300px;
+    height: 190px;
+  }
+  .support,
+  .hero-column {
+    display: none;
+  }
+  .img img {
     border-radius: 10px;
-    width: 481px;
-    height: 580px; 
+    width: 300px;
+    height: 370px;
+  }
+  .card {
+    position: relative;
+    bottom: 200px;
+  }
+  .hero {
+    padding-left: 0px;
+  }
+  .hero-content h1 {
+    margin-top: 60px;
+  }
+  .hero-content h1,
+  p {
+    text-align: center;
+  }
+  .hero-btn {
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  .card-content .subtilted-xl-medium {
+    font-size: 17px;
+  }
+  .column .body-medium-regular {
+    font-size: 13px;
+  }
+  .column .body-medium-medium {
+    font-size: 13px;
+  }
+  .column button {
+    width: 100px;
+    height: 34px;
+    margin-left: 0px;
+  }
+  .columns {
+    gap: 40px;
+  }
+  .joshua {
+    margin-top: 7px;
+  }
+}
+
+/* telefon */
+@media screen and (min-width: 350px) and (max-width: 779px) {
+  .container-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .hero-div {
+    width: 330px;
+    position: relative;
+  }
+  .support,
+  .hero-column {
+    display: none;
+  }
+
+  .hero-card {
+    margin-bottom: 150px;
+    position: relative;
+    top: 150px;
+    height: 398px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    z-index: 10;
+    width: 100vw;
+    right: 0;
+    border-radius: 0 0 0 43px;
+  }
+  .card:last-child {
+    display: none;
+  }
+  .img img {
+    border-radius: 13px;
+    width: 258px;
+    height: 365px;
+  }
+  .card-content {
+    border-radius: 13px;
+    width: 266px;
+    height: 175px;
+  }
+  .card {
+    bottom: 160px;
+  }
+  .hero {
+    padding-left: 0px;
+  }
+  .hero-content h1 {
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+  .hero-content h1,
+  p {
+    text-align: center;
+  }
+  .hero-content h1 {
+    font-size: 46px;
+  }
+  .hero-btn {
+    margin-bottom: 44px;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  .hero-btn button {
+    width: 400px;
+    height: 56px;
+  }
+  .hero-content p {
+    width: 330px;
+    text-align: center;
+  }
+  .card-content .subtilted-xl-medium {
+    font-size: 15px;
+  }
+  .column .body-medium-regular {
+    font-size: 10px;
+  }
+  .column .body-medium-medium {
+    font-size: 10px;
+  }
+  .column .body-small-bold {
+    font-size: 10px;
+  }
+  .column button {
+    width: 100px;
+    height: 34px;
+    margin-left: 0px;
+  }
+  .columns {
+    gap: 40px;
+  }
+  .joshua {
+    margin-top: 4px;
+  }
 }
