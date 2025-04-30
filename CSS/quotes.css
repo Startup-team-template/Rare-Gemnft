@@ -1,18 +1,43 @@
-.quotes{
+.quotes {
   background-color: #171717;
   border-radius: 50px 50px 0 0;
 }
-.quotes .container {
+.quotes-container{
   max-width: 1440px;
   margin: 0 auto;
 }
 .quotes-content {
   border-radius: 50px 50px 0 0;
   padding: 80px;
-  width: 1440px;
+  max-width: 1440px;
   height: 448px;
 }
 .quotes-content p {
   color: #d9ee44;
   text-align: center;
+}
+
+/* tablet */
+@media screen and (min-width: 780px) and (max-width: 1200px) {
+  .quotes-content {
+    width: 780px;
+  }
+  .quotes-container {
+    max-width: 780px;
+  }
+}
+
+/* telefon */
+@media screen and (min-width: 350px) and (max-width: 779px) {
+  .quotes-content p {
+    font-size: 38px;
+  }
+  .quotes-content {
+    width: 350px;
+    padding: 80px 20px;
+    height: 545px;
+    margin: 0 auto;
+  }
+  
+
 }
