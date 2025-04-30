@@ -104,4 +104,103 @@
     border-radius: 10px;
     display: inline-block;
     width: auto;
+    transition: all .3s ease;
+}
+.community-btn:hover{
+    background-color: var(--black);
+    box-shadow: 9px 9px 0 0 var(--main);
+    color: var(--white);
+}
+@media screen and (min-width: 780px) and (max-width: 1200px){
+    .community{
+        overflow: hidden;
+    }
+    .container{
+        max-width: 780px;
+    }
+    .community-box {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .circle1 {
+        width: 1000px;
+        height: 1020px;
+    }
+
+    .circle2 {
+        width: 800px;
+        height: 820px;
+    }
+
+    .circle3 {
+        width: 600px;
+        height: 620px;
+    }
+
+    .circle4 {
+        width: 450px;
+        height: 460px;
+    }
+
+    .monkey {
+        width: 80px;
+        height: 80px;
+    }
+
+    
+}
+@media screen and (min-width: 350px) and (max-width: 779px){
+    .community{
+        overflow: hidden;
+    }
+    .container{
+        max-width: 350px;
+    }
+
+    .community-box {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .circle1 {
+        width: 500px;
+        height: 520px;
+    }
+
+    .circle2 {
+        width: 400px;
+        height: 420px;
+    }
+
+    .circle3 {
+        width: 300px;
+        height: 320px;
+    }
+
+    .circle4 {
+        width: 220px;
+        height: 230px;
+    }
+
+    .monkey {
+        width: 38px;
+        height: 38px;
+    }
+    .community-content{
+        gap: 11px;
+    }
+    .community-content > .title-xl{
+        font-size: 38px;
+    }
+    .community-content .title-xl > span{
+        font-weight: inherit;
+    }
+    .community-content .body-medium-regular{
+        font-size: 11px;
+        text-transform: capitalize;
+    }
+    
+
+    
 }

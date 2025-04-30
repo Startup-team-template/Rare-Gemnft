@@ -36,6 +36,12 @@
     text-decoration: none;
     display: flex;
     gap: 16px;
+    transition: all .3s ease;
+}
+.nft-btn:hover{
+    background-color: var(--black);
+    box-shadow: 9px 9px 0 0 var(--main);
+    color: var(--white);
 }
 .nft-content {
     position: relative;
@@ -79,10 +85,14 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 114px;
     row-gap: 30px;
     
+}
+.nft-inform-col-1 , .nft-inform-col-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
 }
 .nft-price{
     display: flex;
@@ -101,7 +111,12 @@
     padding: 16px 24px;
     text-align: center;
     border-radius: 10px;
-
+    transition: all .3s ease;
+}
+.nft-list-btn:hover{
+    background-color: var(--black);
+    box-shadow: 9px 9px 0 0 var(--main);
+    color: var(--white);
 }
 
 @media screen and (min-width: 780px) and (max-width: 1200px){
