@@ -1,0 +1,131 @@
+.faq-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 135px;
+  margin: 80px 119.5px;
+  padding: 0px;
+  width: 100%;
+  max-width: 1201px;
+}
+
+.faq-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  width: 100%;
+  max-width: 482px;
+}
+
+.faq-title span {
+  color: #D9EE44;
+}
+
+.faq-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.faq-btn-container {
+  position: absolute;
+  margin-top: 15px;
+  width: 100%;
+  max-width: 482px;
+}
+
+
+.faq-input {
+  display: flex;
+  width: 100%;
+  max-width: 482px;
+  height: 66px;
+  padding: 24px 16px;
+  margin-top: 15px;
+  border-radius: 16px;
+  border: 1px solid #d9d9d9;
+  background: #fff;
+  font-size: 14px;
+  box-shadow: 9px 9px 0px rgba(23, 23, 23, 1);
+}
+
+.faq-input:focus, .faq-input:hover {
+  outline: none;
+  box-shadow: none;
+  transition: all 0.3s ease;    
+}
+
+.faq-btn {
+  position: absolute;
+  right: 24px;
+  top: 50%;
+  transform: translateY(-25%);
+  cursor: pointer;
+  width: 85px;
+  height: 34px;
+  border-radius: 10px;
+  background-color: #D9EE44;
+  color: #171717;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+}
+
+.faq-btn:hover, .faq-btn:focus {
+  background-color: black;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.faq-btn:active {
+  transform: scale(0.90);
+}
+
+.faq-right-container {
+  display: flex;
+}
+
+.faq-right-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 30px 24px;
+  width: 100%;
+}
+
+.faq-item {
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+.faq-item-arrow {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.faq-paragraph {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 16px;
+  padding: 0px;
+  width: 100%;
+  text-align: left;
+}
+
+.faq-item-line {
+  width: 100%;
+  margin-top: 24px;
+}
