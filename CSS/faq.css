@@ -31,7 +31,7 @@
 }
 
 .faq-btn-container {
-  position: absolute;
+  position: relative;
   margin-top: 15px;
   width: 100%;
   max-width: 482px;
@@ -128,4 +128,67 @@
 .faq-item-line {
   width: 100%;
   margin-top: 24px;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1200px) {
+  .faq .container {
+    width: 100%;
+    max-width: 780px;
+  }
+
+  .faq-content {
+    width: 100%;
+    max-width: 780px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 0px;
+    padding: 40px 60px;
+  }
+
+  .faq-left {
+    width: 100%;
+    max-width: 660px;
+  }
+
+  .faq-right-container {
+    width: 100%;
+    max-width: 660px;
+  }
+}
+
+
+@media screen and (min-width: 350px) and (max-width: 779px) {
+  .faq-content {
+    width: 100%;
+    max-width: 350px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 0px;
+    padding: 40px 18px;
+  }
+
+  .faq-left {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .faq-right-container {
+    width: 100%;
+    max-width: 350px;
+    padding: 0px;
+  }
+
+  .faq-right-list {
+    width: 100%;
+    max-width: 350px;
+    padding: 0px;
+  }
+
+  .fag-left .title-xl {
+    font-size: 42px;
+  }
 }

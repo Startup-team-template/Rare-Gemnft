@@ -95,3 +95,91 @@
 .navbar-btn:active {
     transform: scale(0.95);
 }
+
+.navbar-mobile {
+    display: none;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1200px) {
+    .navbar-list {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 300px;
+        height: 500px;
+        z-index: 1000;
+        background-color: black;
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 0 16px 16px 0;
+        box-shadow: 0 0 5px white;
+        display: none;
+    }
+
+    .navbar-list .body-medium-medium {
+        font-size: 24px;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .navbar-list .navbar-item:hover, .navbar-list .navbar-item:focus {
+        font-weight: 700;
+        text-shadow: none;
+    }
+
+    .navbar-mobile {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 350px) and (max-width: 779px) {
+    .navbar-list {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 300px;
+        height: 500px;
+        z-index: 1000;
+        background-color: black;
+        margin: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 0 16px 16px 0;
+        box-shadow: 0 0 5px rgba(221, 242, 71, 1);
+        display: none;
+    }
+
+    .navbar-list .body-medium-medium {
+        font-size: 24px;
+        font-weight: 500;
+        color: #fff;
+    }
+
+    .navbar-list .navbar-item:hover, .navbar-list .navbar-item:focus {
+        font-weight: 700;
+        text-shadow: none;
+    }
+
+    .navbar-connect {
+        display: none;
+    }
+
+    .navbar-menu {
+        margin: 24px 40px;
+    }
+
+    .navbar-logo {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .navbar-mobile {
+        display: flex;
+    }
+}
