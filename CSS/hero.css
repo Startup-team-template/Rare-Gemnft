@@ -49,9 +49,77 @@ h1 span {
   font-weight: 700;
   font-size: 14px;
 }
+.hero-btn button:first-child::after{
+  content: "";
+  display: inline-block;
+  background-image: url(../images/Vector\ \(1\).png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20px; 
+  height: 20px; 
+  margin-left: 14px;
+  vertical-align: middle; 
+}
+.hero-btn button:last-child:after{
+  content: "";
+  display: inline-block;
+  background-image: url(../images/Vector\ \(2\).png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20px; 
+  height: 20px; 
+  margin-left: 14px;
+  vertical-align: middle; 
+
+}
+.open::before{
+  content: "";
+  display: inline-block;
+  background-image: url(../images/simple-icons_opensea.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20px; 
+  height: 20px; 
+  margin-right: 20px;
+  vertical-align: middle;
+}
+.binance::before{
+  content: "";
+  display: inline-block;
+  background-image: url(../images/simple-icons_binance.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20px; 
+  height: 20px; 
+  margin-right: 20px;
+  vertical-align: middle;
+}
 .hero-btn button:first-child {
   background: #d9ee44;
 }
+.eth::before{
+  content: "";
+  display: inline-block;
+  background-image: url(../images/Vector\ \(3\).png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 20px; 
+  height: 20px; 
+  margin-right: 3px;
+  vertical-align: middle;
+}
+.joshua::before{
+  content: "";
+  display: inline-block;
+  background-image: url(../images/Frame\ 17.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 18px; 
+  height: 20px; 
+  margin-right: 13px;
+  vertical-align: middle;
+}
+
 .support {
   padding-top: 40px;
   padding-bottom: 30px;
@@ -121,11 +189,20 @@ h1 span {
 .column button {
   border-radius: 10px;
   margin-left: 40px;
+  margin-top: 7px;
   width: 65px;
   height: 50px;
   text-align: center;
   background: #d9ee44;
   border: none;
+}
+.column button:hover {
+  background: #d9ee44;
+}
+.hero-btn button:hover {
+  box-shadow: 9px 9px 0 0 #ddf247;
+  background: #171717;
+  color: #fff;
 }
 .thin {
   opacity: 0.6;
@@ -287,7 +364,7 @@ h1 span {
     gap: 15px;
   }
   .hero-btn button {
-    width: 400px;
+    width: 100%;
     height: 56px;
   }
   .hero-content p {
