@@ -108,12 +108,10 @@
   width: 100%;
 }
 
-.faq-item-arrow {
-  position: absolute;
-  right: 0px;
-  top: 50%;
-  transform: translateY(-50%);
-  cursor: pointer;
+.faq-arrow-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .faq-paragraph {

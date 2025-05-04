@@ -14,6 +14,7 @@
 
 .navbar-logo {
     display: flex;
+    width: 200px;
     align-items: center;
     gap: 8px;
 }
