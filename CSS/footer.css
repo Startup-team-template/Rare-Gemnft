@@ -58,6 +58,7 @@
     border-radius: 10px;
     outline: none;
     border: none;
+    transition: all 0.3s ease;
 }
 
 .footer-btn:hover {
