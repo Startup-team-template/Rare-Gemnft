@@ -7,6 +7,7 @@
     url("../images/footer-bg.png");*/
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     margin: 0 auto;
 }
 
@@ -63,6 +64,11 @@
     background-color: var(--black);
     box-shadow: 9px 9px 0 0 var(--main);
     color: var(--white);
+    transition: all 0.3s ease;
+}
+
+.footer-vector1, .footer-vector2{
+    display: none;
 }
 
 @media screen and (min-width: 375px) and (max-width: 779px) {
@@ -117,9 +123,11 @@
     .footer-container {
         max-width: 1440px;
         padding: 0 90px 127px 90px;
-        flex-direction: row;
+        gap: 0;
+        position: relative;
+        /*flex-direction: row;
         align-items: flex-start;
-        gap: 88px;
+        gap: 88px;*/
     }
 
     .footer-overlay {
@@ -137,8 +145,10 @@
     }
 
     .footer-subscribe {
-        width: 50%;
-        margin-top: 219px;
+        width: 584px;
+        position: absolute;
+        right: 93px;
+        top: 219px;
     }
 
     .footer-subscribe h4 {
@@ -148,5 +158,29 @@
 
     .footer-btn {
         font-size: 14px;
+    }
+
+    .footer-top{
+        display: flex;
+        flex-direction: row;
+        gap: 0;
+    }
+
+    .footer-bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-vector1{
+        display: inline;
+        margin-top: 12px;
+    }
+
+    .footer-vector2{
+        display: inline;
+        position: absolute;
+        left: 341px;
+        top: 304px;
     }
 }
