@@ -51,7 +51,7 @@
 }
 
 .creators-span{
-    color: var(--gray);
+    color: #525252;
     font-size: 12px;
     font-weight: 300;
     line-height: 1.2;
@@ -239,12 +239,12 @@
 }
 
 .profile-nft{
-    color: var(--gray);
+    color: #525252;
 
 }
 
 .profile-tag{
-    color: var(--gray);
+    color: #525252;
     font-weight: 300;
     font-size: 9px;
     line-height: 1.2;
