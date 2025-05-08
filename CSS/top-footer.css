@@ -103,6 +103,7 @@
   .footer-top-list {
     list-style: none;
     gap: 24px;
+    padding-left: 0px;
   }
 
   .top-list-item-link {

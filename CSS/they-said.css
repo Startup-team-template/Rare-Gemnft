@@ -1,17 +1,15 @@
 .they-said-section {
   padding: 80px;
   background: var(--white);
+  position: relative;
 }
 
 .they-said-section > .container {
   max-width: 1440px;
-  position: relative;
 }
 
 .they-said-content {
   position: relative;
-  width: 1201;
-  height: 774;
   gap: 40px;
 }
 
@@ -19,9 +17,8 @@
   display: flex;
   justify-content: space-between;
   position: absolute;
-  top: -80px;
+  top: 0;
   left: 0;
-  width: 200px;
   height: 200px;
   z-index: 0;
   width: 100%;
@@ -35,8 +32,6 @@
   margin-bottom: 80px;
   gap: 40px;
   z-index: 1;
-}
-.title-container-content {
 }
 .main-title {
   text-align: left;
@@ -66,7 +61,7 @@
 .card-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   gap: 40px;
 }
 
@@ -74,7 +69,7 @@
   display: flex;
   gap: 20px;
   margin-bottom: 20px;
-  justify-content: center;
+  justify-content: space-between;
   width: 100%;
 }
 
@@ -92,15 +87,15 @@
   align-items: center;
   width: 331px;
   height: 65px;
-}
-.profile img {
-  padding-right: 16px;
+  gap: 16px;
 }
 .title-box {
   display: flex;
   flex-direction: column;
   width: 81px;
   height: 65px;
+  justify-content: center;
+  gap:10px;
 }
 .profile-title {
   display: inline;
@@ -133,19 +128,9 @@
     width: 660px;
     height: 973px;
   }
-  .title-container {
-  }
-  .card-container {
-  }
-  .cards {
-  }
-  .cards-one {
-  }
-  .cards-two {
-  }
-  .profile-card {
-  }
-  .profile {
+  .cards{
+    flex-direction: column;
+    width: calc((100% - 40px)/ 2);
   }
 }
 
@@ -167,10 +152,9 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 40px;
+    width: 100%;
     height: 40px;
     z-index: 0;
-    gap: 1000px;
   }
   .title-container {
     width: 325px;
@@ -200,7 +184,6 @@
     height: 59px;
   }
   .title-content {
-    font-family: var(--font-family);
     font-weight: 300;
     font-size: 16px;
     line-height: 125%;
