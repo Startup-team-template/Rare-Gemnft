@@ -5,7 +5,6 @@
 
 .they-said-section > .container {
   max-width: 1440px;
-  margin: 0 auto;
   position: relative;
 }
 
@@ -14,7 +13,6 @@
   width: 1201;
   height: 774;
   gap: 40px;
-  margin: 80px 118px;
 }
 
 .they-said-box {
@@ -26,7 +24,7 @@
   width: 200px;
   height: 200px;
   z-index: 0;
-  gap: 1000px;
+  width: 100%;
 }
 
 .title-container {
@@ -107,7 +105,6 @@
 .profile-title {
   display: inline;
   color: var(--black);
-  margin: 0 0 16px 0;
   white-space: nowrap;
 }
 .profile-subtitle {
@@ -129,34 +126,26 @@
     padding: 60px;
   }
   .they-said-section > .container {
-    max-width: 780px;
-    width: %50;
+    width: 780px;
+    height: 1093px;
   }
   .they-said-content {
     width: 660px;
     height: 973px;
   }
   .title-container {
-    width: 584px;
-    height: 192px;
   }
   .card-container {
-    width: 660px;
-    height: 741px;
-    gap: 25px;
   }
   .cards {
-    display: flex;
-    flex-direction: row;
+  }
+  .cards-one {
+  }
+  .cards-two {
   }
   .profile-card {
-    padding: 24px;
-    width: 317px;
-    height: 217px;
   }
   .profile {
-    width: 269px;
-    height: 65px;
   }
 }
 
