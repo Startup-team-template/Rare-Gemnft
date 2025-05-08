@@ -197,12 +197,16 @@ h1 span {
   border: none;
 }
 .column button:hover {
-  background: #d9ee44;
+  box-shadow: 9px 9px 0 0 #ddf247;
+  background: #171717;
+  color: #fff;
+  transition: all 0.3s ease;
 }
 .hero-btn button:hover {
   box-shadow: 9px 9px 0 0 #ddf247;
   background: #171717;
   color: #fff;
+  transition: all 0.3s ease;
 }
 .thin {
   opacity: 0.6;
