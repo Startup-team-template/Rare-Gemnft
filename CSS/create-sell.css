@@ -127,7 +127,7 @@
     display: none;
 }
 
-@media screen and (min-width: 810px) and (max-width: 1199px) {
+@media screen and (min-width: 780px) and (max-width: 1200px) {
     .createHeaderContainer {
         flex-direction: row-reverse;
     }
@@ -188,7 +188,7 @@
     }
 }
 
-@media screen and (min-width: 390px) and (max-width: 809px) {
+@media screen and (min-width: 350px) and (max-width: 779px){
     .createImg {
         display: none;
     }
@@ -196,7 +196,7 @@
     .CreateContainer {
 
         padding: 40px 25px;
-        width: 365px;
+        width: 338px;
         height: 1610px;
         display: flex;
         justify-content: center;
@@ -241,6 +241,7 @@
 
     .listitem {
         margin-bottom: 40px;
+        width:287px;
     }
 
 }
