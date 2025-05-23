@@ -3,11 +3,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .CreateContainer {
     background-color: var(--white);
-    width: 1201px;
+    max-width: 1440px;
     height: 762px;
     display: flex;
     flex-wrap: wrap;
